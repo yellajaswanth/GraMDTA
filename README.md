@@ -1,5 +1,5 @@
 # GraMDTA: Multimodal Graph Neural Networks for Predicting Drug-Target Associations
-
+  
 Authors: Jaswanth K. Yella, Sudhir K. Ghandikota, Anil G. Jegga
 
 ## Abstract
