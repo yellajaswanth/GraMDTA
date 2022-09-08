@@ -10,10 +10,18 @@ Finding novel drug-target associations is vital for drug discovery. However, scr
 
 
 ## Dependencies
-* PyTorch
-* PyTorch Sparse
-* PyTorch Geometric
-* Numpy
-* Pandas
-* Scikit-learn
-* Networkx
+```
+conda create --name GraMDTA python==3.8.12
+conda activate GraMDTA
+conda install pandas==1.4.1 matplotlib scikit-learn==1.0.2 scipy==1.8.1 tqdm seaborn==0.11.2 tensorboard==2.8.0
+conda install pytorch==1.11.0 cudatoolkit=11.3 -c pytorch
+conda install rdkit -c conda-forge
+
+pip3 install torch-scatter -f https://data.pyg.org/whl/torch-1.11.0+cu113.html
+pip3 install torch-sparse -f https://data.pyg.org/whl/torch-1.11.0+cu113.html
+pip3 install torch-geometric
+
+pip3 install -U pytorch_warmup
+pip3 install -U networkx==2.8.4
+
+```
